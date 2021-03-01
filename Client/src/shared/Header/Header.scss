@@ -1,0 +1,168 @@
+// @import "../../../../assets/scss/utils/mixines";
+// @import "../../../../assets/scss/utils/variables";
+
+// .header {
+//     display: flex;
+//     align-items: center;
+//     background-color: rgba(229, 239, 249, 0.4);
+//     min-height: $header-height;
+//     position: relative;
+//     z-index: 2;
+//     box-shadow: 0px 4px 5px -5px rgba(34, 60, 80, 0.2);
+//     padding: 0 20px;
+//     -webkit-backdrop-filter: blur(3px);
+//     backdrop-filter: blur(14px);
+//     background-color: rgba(229, 239, 249, 0.6);
+
+//     &-content {
+//         width: 100%;
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-between;
+
+//         @include tablet-landscape {
+//             justify-content: space-between;
+//         }
+
+//         & > .burger-menu {
+//             width: 40px;
+//             height: 40px;
+//             background-color: transparent;
+//             border: none;
+//             border-radius: 50%;
+//             padding: 0;
+//             font-size: 20px;
+//             margin-right: 1rem;
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+//             &:focus {
+//                 outline: none;
+//                 background-color: #f0f2f5;
+//             }
+
+//             @include tablet-landscape {
+//                 display: none;
+//             }
+//         }
+
+//         & > .logo {
+//             width: 10rem;
+//             & > img {
+//                 width: 100%;
+//             }
+//         }
+
+//         & > .dropdown {
+//             & > button {
+//                 width: 40px;
+//                 height: 40px;
+//                 background-color: transparent;
+//                 border: none;
+//                 outline: none;
+//                 border-radius: 50%;
+//                 padding: 0;
+//                 font-size: 20px;
+//                 margin-right: 1rem;
+//             }
+//         }
+//     }
+// }
+
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 75px;
+    color: black;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0px 4px 5px -5px rgba(34, 60, 80, 0.2);
+    //transparency
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(14px);
+    background: rgb(0,0,0);
+// background: linear-gradient(42deg, rgba(0,0,0,0.7651435574229692) 0%, rgba(0,0,0,1) 13%, rgba(0,0,0,0.7203256302521008) 32%, rgba(0,0,0,0.8491771708683473) 49%, rgba(0,0,0,0.6755077030812324) 72%, rgba(0,0,0,0.6811099439775911) 99%);
+    background: linear-gradient(42deg, rgba(0,0,0,0.7651435574229692) 0%, rgba(0,0,0,0.8631827731092436) 18%, rgba(0,0,0,0.7203256302521008) 29%, rgba(0,0,0,0.8127626050420168) 49%, rgba(0,0,0,0.6755077030812324) 72%, rgba(0,0,0,0.6811099439775911) 99%);
+}
+
+.header-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1{
+        color: white;
+        margin-left: 1rem;
+    }
+}
+
+.menu-route{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-content{
+    display: flex;
+
+    ul{
+        display: flex;
+        margin-top: revert;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+
+        li{
+            button{
+                width: 40px;
+                height: 35px;
+                line-height: 1;
+                border: none;
+                outline: none;
+                background: none;
+                // background: #f09433; 
+                // background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+                // background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+                // background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+
+            }
+           
+        }
+    }
+}
+
+.artist-name{
+    p{
+    color: white;
+    font-size: 28px;
+    margin: 0;
+    margin-left: 1rem;
+    }
+}
+
+.nav-menu{
+    margin: 0;
+    display: flex;
+    
+
+        li{
+            list-style: none;
+            margin-right: 1rem;
+
+        #contacts_route{
+            margin-right: 0;
+        }
+
+            a{
+                color: white;
+            }
+        }
+}
+
+@media(max-width: 600px){
+    .menu-route{
+        display: none;
+    }
+}

@@ -1,0 +1,38 @@
+
+
+.main-layout {
+    min-height: 99vh;
+
+    & > .layout-wrapper {
+        min-width: 320px;
+        width: inherit;
+        position: relative;
+
+        & > .content {
+            min-height: calc(100vh - 75px);
+            // @include flex-row-align(initial);
+            display: flex;
+            position: relative;
+        
+        }
+    }
+}
+
+// // .example-layout {
+// //     display: flex;
+// //     min-width: 320px;
+// //     width: 100%;
+// //     height: 100%;
+// // }
+
+// .layout {
+// }
+
+// .ant-layout-sider-children {
+//     width: 100%;
+// }
+
+// .loyautContent {
+//     background-color: #efefef;
+//     flex-grow: 1;
+// }
