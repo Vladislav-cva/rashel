@@ -10,56 +10,40 @@ export function ClipsComponent () {
             </div>
 
                 <div className="clips">
-                                <iframe src='https://www.youtube.com/embed/SOB48YUcOiU'
+                                <iframe  className="iframe" src='https://www.youtube.com/embed/SOB48YUcOiU?t=6'
                                     frameBorder='0'
                                     allow='autoplay; encrypted-media'
                                     allowFullScreen
                                     title='video'
-                                    style={{
-                                        width: '80vh',
-                                        height:'44vh',
-                                        margin: '1rem'}}     
+                                       
                                 />
-                                <iframe src='https://www.youtube.com/embed/NNcv7KhrP_k'
+                                <iframe className="iframe" src='https://www.youtube.com/embed/NNcv7KhrP_k'
                                     frameBorder='0'
                                     allow='autoplay; encrypted-media'
                                     allowFullScreen
                                     title='video'
-                                    style={{
-                                        width: '80vh',
-                                        height:'44vh',
-                                        margin: '1rem'
-                                    }}     
+                                       
                                 />
-                                <iframe src='https://www.youtube.com/embed/54T1R8iTlhE'
+                                <iframe className="iframe" src='https://www.youtube.com/embed/54T1R8iTlhE'
                                     frameBorder='0'
                                     allow='autoplay; encrypted-media'
                                     allowFullScreen
                                     title='video'
-                                    style={{
-                                        width: '80vh',
-                                        height:'44vh',
-                                        margin: '1rem'}}     
+                                     
                                 />
-                                <iframe src='https://www.youtube.com/embed/bpBK7PJxI_k'
+                                <iframe className="iframe" src='https://www.youtube.com/embed/bpBK7PJxI_k'
                                     frameBorder='0'
                                     allow='autoplay; encrypted-media'
                                     allowFullScreen
                                     title='video'
-                                    style={{
-                                        width: '80vh',
-                                        height:'44vh',
-                                        margin: '1rem'}}     
+                                    
                                 />
-                                <iframe src='https://www.youtube.com/embed/h9KJgJFQNoc'
+                                <iframe className="iframe" src='https://www.youtube.com/embed/h9KJgJFQNoc'
                                     frameBorder='0'
                                     allow='autoplay; encrypted-media'
                                     allowFullScreen
                                     title='video'
-                                    style={{
-                                        width: '80vh',
-                                        height:'44vh',
-                                        margin: '1rem'}}     
+                                     
                                 />
 
                 </div>
